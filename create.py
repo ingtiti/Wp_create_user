@@ -20,18 +20,19 @@ Asegúrate de que el usuario tenga los permisos necesarios para realizar operaci
 import requests
 
 # Configuración
-wordpress_url = 'https://tusitio.com/wp-json/wp/v2/users'
-api_key = 'tu_clave_de_api'
-username = 'nuevo_usuario'
-password = 'contraseña_fuerte'
-email = 'correo@example.com'
+wordpress_url = 'https://signifikativo.com.mx/wp-json/wp/v2/user_request'
+api_key = 'TJ0e 27vh DD1K f8MS THSi tI1w'
+username = 'prueba'
+password = 'Titiapps321'
+email = 'contacto@titi-apps.com'
 
 # Obtener token de autenticación
-auth_url = 'https://tusitio.com/wp-json/jwt-auth/v1/token'
+auth_url = 'https://signifikativo.com.mx/wp-json/jwt-auth/v1/token'
 auth_data = {
-    'username': 'tu_usuario',
-    'password': 'tu_contraseña',
+    'username': 'prueba',
+    'password': 'Titiapps321',
 }
+
 
 auth_headers = {
     'Content-Type': 'application/json',
