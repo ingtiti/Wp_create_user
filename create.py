@@ -29,8 +29,8 @@ email = 'contacto@titi-apps.com'
 # Obtener token de autenticación
 auth_url = 'https://signifikativo.com.mx/wp-json/jwt-auth/v1/token'
 auth_data = {
-    'username': 'prueba',
-    'password': 'Titiapps321',
+    'username': 'prueba1',
+    'password': 'Titiapps321123',
 }
 
 
