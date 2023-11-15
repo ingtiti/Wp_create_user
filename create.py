@@ -20,14 +20,14 @@ Asegúrate de que el usuario tenga los permisos necesarios para realizar operaci
 import requests
 
 # Configuración
-wordpress_url = 'https://signifikativo.com.mx/wp-json/wp/v2/user_request'
+wordpress_url = 'https://signifikativo.com.mx/wp-json/wp/v2/users'
 api_key = 'TJ0e 27vh DD1K f8MS THSi tI1w'
 username = 'prueba'
 password = 'Titiapps321'
 email = 'contacto@titi-apps.com'
 
 # Obtener token de autenticación
-auth_url = 'https://signifikativo.com.mx/wp-json/jwt-auth/v1/token'
+auth_url = 'https://signifikativo.com.mx/wp-json/api/v1/token'
 auth_data = {
     'username': 'prueba1',
     'password': 'Titiapps321123',
