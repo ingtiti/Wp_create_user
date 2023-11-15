@@ -21,7 +21,8 @@ import requests
 
 # Configuración
 wordpress_url = 'https://signifikativo.com.mx/wp-json/wp/v2/users'
-api_key = 'TJ0e 27vh DD1K f8MS THSi tI1w'
+#api_key = 'TJ0e 27vh DD1K f8MS THSi tI1w'
+api_key = 'TJ0e27vhDD1Kf8MSTHSitI1w'
 username = 'prueba'
 password = 'Titiapps321'
 email = 'contacto@titi-apps.com'
